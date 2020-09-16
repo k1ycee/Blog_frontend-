@@ -21,7 +21,7 @@ class Body extends Component {
         const { posts } = this.state;
         const post = posts.map(post => {
             return (
-                <div key={post._id}>
+                <div className="container" key={post._id}>
                     <div className="col s12 m12">
                         <Link to={"/" + post._id}>
                             <div className="card z-depth-0 black-text">
