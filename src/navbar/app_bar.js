@@ -10,7 +10,7 @@ class NavBar extends Component {
     }
     render() {
         return (
-            <div className="navbar-fixed">
+            <div className="navbar">
                 <nav className="white z-depth-0 right">
                     <div className="nav-wrapper container">
                         <NavLink to="/" className="brand-logo"><span className="black-text change">Journal</span></NavLink>
